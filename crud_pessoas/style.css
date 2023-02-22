@@ -1,21 +1,19 @@
-/* Define uma paleta de cores */
-:root {
+  :root {
     --cor-primaria: #3498db;
     --cor-secundaria: #2c3e50;
   }
   
-  /* Define as fontes */
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
   
-  /* Estiliza os cabeçalhos */
+ 
   h1, h2, h3 {
     color: var(--cor-primaria);
   }
   
-  /* Estiliza botões */
+
   button {
     background-color: var(--cor-primaria);
     color: #fff;
@@ -54,7 +52,7 @@
     background-color: #2980b9;
   }
   
-  /* Estiliza tabelas */
+
   table {
     border-collapse: collapse;
     width: 100%;
@@ -74,12 +72,10 @@
     background-color: #f2f2f2;
   }
   
-  /* Adiciona sombra a elementos */
   .box {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Adiciona animação de transição a links */
   a {
     transition: color 0.2s ease-in-out;
   }
