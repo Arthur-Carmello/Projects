@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro de Recebimento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro de Recebimento</h1>
+  <form action="cadastro_recebimento.php" method="POST">
+    <label for="id_pessoa">ID da Pessoa:</label>
+    <input type="text" id="id_pessoa" name="id_pessoa" required><br><br>
+
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor" name="valor" required><br><br>
+
+    <label for="data">Data:</label>
+    <input type="date" id="data" name="data" required><br><br>
+
+    <input type="submit" value="Cadastrar">
+  </form>
+</body>
+</html>
