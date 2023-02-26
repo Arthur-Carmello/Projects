@@ -1,0 +1,84 @@
+:root {
+    --cor-primaria: #3498db;
+    --cor-secundaria: #2c3e50;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  h1, h2, h3 {
+    color: var(--cor-primaria);
+  }
+
+  button {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  input[type="text"], select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: var(--cor-secundaria);
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .box {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: var(--cor-primaria);
+  }
+
+
+
