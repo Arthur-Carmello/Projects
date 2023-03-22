@@ -4,5 +4,6 @@ Lista To Do
 
 Modal
 
-![Modal 1](https://user-images.githubusercontent.com/37301918/226989694-058f8b95-8e42-49f3-9c0d-9934a13a1a15.JPG)
-![Modal 2](https://user-images.githubusercontent.com/37301918/226989709-c887e88e-19b6-4c5e-bba4-a5bbb35d15d0.JPG)
+![Modal 2](https://user-images.githubusercontent.com/37301918/226989803-daf6f388-2262-4af0-811f-5a6e30144bee.JPG)
+![Modal 1](https://user-images.githubusercontent.com/37301918/226989836-56f45aff-227b-4f64-8c0b-c661ef640610.JPG)
+
