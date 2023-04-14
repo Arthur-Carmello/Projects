@@ -2,8 +2,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
 
 button {
     background-color: aliceblue;
-    color:rgb(29, 27, 148);
+    color: rgb(29, 27, 148);
     border: 2px solid rgb(29, 27, 148);
     padding: .3em .6em;
     font-size: 1rem;
@@ -31,7 +31,7 @@ button:hover {
     color: aliceblue;
 }
 
-button:hover > i {
+button:hover>i {
     color: aliceblue;
 }
 
@@ -41,7 +41,8 @@ button i {
     pointer-events: none;
 }
 
-input, select {
+input,
+select {
     padding: 0.25rem 0.5rem;
 }
 
@@ -65,12 +66,13 @@ input, select {
 }
 
 /* todo form */
-#todo-form, #edit-form {
+#todo-form,
+#edit-form {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 }
 
-#todo-form p, 
+#todo-form p,
 #edit-form p {
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -85,7 +87,7 @@ input, select {
 }
 
 #cancel-edit-btn {
-    margin-top: 1rem;  
+    margin-top: 1rem;
 }
 
 /* todo toolbar */
@@ -100,12 +102,12 @@ input, select {
 }
 
 #search {
-   border-right: 1px solid #DDD;
-   padding-right: 1rem;
-   margin-right: 1rem;
-   width: 65%;
-   display: flex;
-   flex-direction: column;
+    border-right: 1px solid #DDD;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
 }
 
 #search form {
@@ -130,7 +132,7 @@ input, select {
 /* todo list */
 .todo {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #DDD;
@@ -155,4 +157,3 @@ input, select {
     text-decoration: line-through;
     font-style: italic;
 }
-
